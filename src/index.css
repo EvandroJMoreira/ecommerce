@@ -11,3 +11,172 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Estilo Global (body para tirar margens padrão) */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Header fixo */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.header button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header select {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+/* Layout das categorias */
+.category {
+  margin: 20px 10px;
+}
+
+.category h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Grid dos produtos */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); /* Muda quantidade de colunas conforme espaço */
+  gap: 10px;
+}
+
+/* Cartões de produto */
+.product-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  max-height: 120px;
+  object-fit: contain;
+}
+
+.product-card h3 {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.product-card p {
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.product-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Modal do carrinho */
+.cart-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 400px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 2000;
+}
+
+.cart-modal h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.cart-modal button {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* RESPONSIVIDADE */
+
+/* Telas menores (celulares em pé) */
+@media (max-width: 480px) {
+  .header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .header h1 {
+      font-size: 16px;
+      margin-bottom: 5px;
+  }
+
+  .header button {
+      padding: 5px 10px;
+      font-size: 14px;
+  }
+
+  .category h2 {
+      font-size: 18px;
+  }
+
+  .product-card {
+      padding: 8px;
+  }
+
+  .product-card h3 {
+      font-size: 12px;
+  }
+
+  .product-card button {
+      padding: 5px;
+      font-size: 12px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .product-list {
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .product-card img {
+      max-height: 150px;
+  }
+}

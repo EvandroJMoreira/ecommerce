@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "segmento": "Roupas Masculinas",
+      "nome": "Camiseta Básica Preta",
+      "preco": 49.9,
+      "imagem": "/images/camisetaPreta.png",
+      "descricao": "Camiseta básica preta 100% algodão."
+    },
+    {
+      "id": 2,
+      "segmento": "Roupas Masculinas",
+      "nome": "Camiseta Estampada",
+      "preco": 59.9,
+      "imagem": "/images/camisetaEstampada.png",
+      "descricao": "Camiseta com estampa moderna."
+    },
+    {
+      "id": 3,
+      "segmento": "Roupas Masculinas",
+      "nome": "Camiseta Polo",
+      "preco": 79.9,
+      "imagem": "/images/camisaPolo.png",
+      "descricao": "Camiseta polo clássica."
+    },
+    {
+      "id": 4,
+      "segmento": "Eletrônicos",
+      "nome": "Fone Bluetooth XYZ",
+      "preco": 299.9,
+      "imagem": "/images/FoneBluetooth.png",
+      "descricao": "Fone de ouvido bluetooth com cancelamento de ruído."
+    },
+    {
+      "id": 5,
+      "segmento": "Eletrônicos",
+      "nome": "Smartwatch ABC",
+      "preco": 599.9,
+      "imagem": "/images/Smartwatch.png",
+      "descricao": "Smartwatch com monitoramento cardíaco."
+    },
+    {
+      "id": 6,
+      "segmento": "Eletrônicos",
+      "nome": "Caixa de Som Portátil",
+      "preco": 199.9,
+      "imagem": "/images/caixadesom.png",
+      "descricao": "Caixa de som portátil resistente à água."
+    },
+    {
+      "id": 7,
+      "segmento": "Livros",
+      "nome": "Livro: Hábitos Atômicos",
+      "preco": 49.9,
+      "imagem": "/images/LivroHabitosAtomicos.png",
+      "descricao": "Best-seller sobre desenvolvimento pessoal."
+    },
+    {
+      "id": 8,
+      "segmento": "Livros",
+      "nome": "Livro: O Poder do Hábito",
+      "preco": 44.9,
+      "imagem": "/images/LivroOPoderdoHabito.png",
+      "descricao": "Livro sobre como hábitos moldam nossas vidas."
+    },
+    {
+      "id": 9,
+      "segmento": "Livros",
+      "nome": "Livro: Mindset",
+      "preco": 44.9,
+      "imagem": "/images/LivroMindset.png",
+      "descricao": "Livro sobre a psicologia do sucesso."
+    }
+  ]
+  
