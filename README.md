@@ -13,9 +13,9 @@
 <br>
 <h2>Como fica a página</h2>
 <h3>Desktop</h3>
-<img src="https://github.com/EvandroJMoreira/ecommerce/blob/main/img/desktop.jpg" width=500px>
-<img src="https://github.com/EvandroJMoreira/ecommerce/blob/main/img/desktopCarrinho.jpg" width=500px>
+<img src="https://github.com/EvandroJMoreira/ecommerce/blob/main/img2/desktop.jpg" width=500px>
+<img src="https://github.com/EvandroJMoreira/ecommerce/blob/main/img2/desktopCarrinho.jpg" width=500px>
 
 <h3>Mobile</h3>
-<img src="https://github.com/EvandroJMoreira/ecommerce/blob/main/img/mobile.jpg" width=500px>
-<img src="https://github.com/EvandroJMoreira/ecommerce/blob/main/img/mobileCarrinho.jpg" width=500px>
+<img src="https://github.com/EvandroJMoreira/ecommerce/blob/main/img2/mobile.jpg" width=500px>
+<img src="https://github.com/EvandroJMoreira/ecommerce/blob/main/img2/mobileCarrinho.jpg" width=500px>
